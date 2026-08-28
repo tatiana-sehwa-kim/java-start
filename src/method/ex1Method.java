@@ -1,0 +1,18 @@
+package method;
+
+public class ex1Method {
+
+    public static void main(String[] args) {
+
+        add(1,2,3);
+        add(15,25,35);
+
+    }
+
+    public static void add(int a, int b, int c) {
+        int sum = a + b + c ;
+        double average = (double) sum / 3 ;
+
+        System.out.println("평균값: " + average);
+    }
+}
